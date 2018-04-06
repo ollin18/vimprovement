@@ -50,3 +50,10 @@ en un lugar específico.
 ¿Por qué h, j, k, l? Bill Joy, el creador de Vi usaba una compu que tenía esas teclas como
 cursor por lo que lo natural es que él las implementara de la misma manera.
 ![](imagenes/keyboard.jpg)
+
+Además es importante mantenernos en el home row para ser más eficientes
+![](imagenes/homerow.png)
+Entonces todos los movimientos los vamos a realizar con la mano derecha.
+
+Pero tengo mouse y trackpad... ¿Por qué no mejor lo uso?
+![](imagenes/lalalala.gif)
