@@ -224,12 +224,23 @@ o  Operator pending mode map. Defined using ':omap' or ':onoremap'.
 <Space>  Normal, Visual and operator pending mode map. Defined using
          ':map' or ':noremap'.
 !  Insert and command-line mode map. Defined using 'map!' or
-   'noremap!'.<Paste>
+   'noremap!'.
 
 ## Neovim
 Vim es un acrónimo de Vi-improved y sí lo es, pero es un desarrollo cerrado a una sola persona y no tiene un emulador de terminal realmente funcional. Ahí es donde Neovim llega al rescate (:
 Neovim es un software colaborativo y abierto, por lo que tiene mejoramientos continuos.
+Podemos interactuar con la terminal con los comandos ```T```
+* :Topen
+* :Tclose
+* :Ttoggle
+* :Tclear
+* :Tkill
+* :T comando
+
 *Neoterm*
+Neoterm nos permite interactuar con un REPL o bash de manera asíncrona por lo que no necesitas guardar las cosas para que puedas ejecutarlas. De esta manera podemos hacer tests mediante los REPL.  Neoterm detecta el tipo de archivo por la extensión y abre automáticamente el REPL en cuestión.
+* <CTRL>l - Manda la línea de nuestro archivo al REPL
+* <CTRL>s - Manda una selección de visual al REPL
 
 ## Vim y Git
 ### fuGITive
