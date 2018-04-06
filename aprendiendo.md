@@ -56,5 +56,7 @@ Además es importante mantenernos en el home row para ser más eficientes
 Entonces todos los movimientos los vamos a realizar con la mano derecha.
 
 Pero tengo mouse y trackpad... ¿Por qué no mejor lo uso?
-![](imagenes/lalalala.gif)
+<!-- ![](imagenes/lalalala.gif) -->
+
+
 ![](http://www.reactiongifs.com/r/lalalala.gif)
