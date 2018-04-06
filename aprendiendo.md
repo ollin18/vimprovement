@@ -112,7 +112,6 @@ Usar la lista anterior para probar el modo VISUAL BLOCK.
 extra: <CTRL>o nos regresa al lugar previo donde nos encontrábamos
 ¿Qué pasa si ejecutamos gg=G?
 
-
 ## Búsquedas
 
 * / - Búsqueda hacia adelante
@@ -134,7 +133,7 @@ Los comandos de edición usualmente siguen la estructura
 [numero]<verbo><sustantivo>
 
 ### Ejemplo
-3gUe - Hacer mayúsculas las siguientes 3 palabras
+3gUe - hacer mayúsculas las siguientes 3 palabras
 3 gU e
 |  | `e final de la siguiente palabra
 |  `  cambiar a mayúsculas
@@ -156,8 +155,10 @@ La podemos ir viendo que como es común cambiar toda una línea, hay un atajo en
 * ci<paréntesis> (change inside) - Cambia lo que esté adentro de un paréntesis-like
 
 # Indentar
+
 | Me encanta Python.
 |        Andreu, 2018
+
 Como en este equipo nos encanta Python, pues tenemos que indentar bien. Para eso usamos < y >
 Hay dos maneras de usarlo.
 * En NORMAL mode << y >> nos desindenta o indenta respectivamente una vez
