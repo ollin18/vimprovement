@@ -168,7 +168,7 @@ El macro se quedará guardado en dicho caracter y lo invocaremos con ```@q <cara
 Hay que pensarlos muy bien porque es fácil que fallen
 
 ## Dein y vimrc
-Veamos qué podemos
+Manejadores de paquetes hay muchos pero dein es el más nuevo y con mayor desarrollo.
 
 ## maps
 * :nmap - Maps en NORMAL
@@ -191,4 +191,27 @@ o  Operator pending mode map. Defined using ':omap' or ':onoremap'.
 !  Insert and command-line mode map. Defined using 'map!' or
    'noremap!'.<Paste>
 
-# Neovim
+## Neovim
+Vim es un acrónimo de Vi-improved y sí lo es, pero es un desarrollo cerrado a una sola persona y no tiene un emulador de terminal realmente funcional. Ahí es donde Neovim llega al rescate (:
+Neovim es un software colaborativo y abierto, por lo que tiene mejoramientos continuos.
+*Neoterm*
+
+## Vim y Git
+### fuGITive
+Fugitive es un wraper plugin de GIT dentro de vim y permite un flujo ininterrumpido de trabajo y consistencia en los commit messages.
+
+El funcionamiento básico:
+* Gstatus - Abre un split con ```git status```, podemos hacer add o reset con ```-``` sobre el archivo en cuestión. Salimos con ```:q```
+* Gwrite - Hace un ```git add```
+* Gcommit - Abre un split con ```git commit```, donde podemos escribir el mensaje del commit. Salimos con ```:wq```, damos enter
+* Gmove - Hace git move en un archivo y también cambia el nombre del buffer
+* Gdelete - Hace ```git rm```
+* Gread - Es como ```git checout -- <archivo>``` pero sobre el buffer por lo que no se guarda automaticamente, es decir basta un ```u``` para rehacer los cambios
+
+
+Primero tenemos que configurar nuestro git para usar vimdiff como mergetool
+```
+git config merge.tool vimdiff
+git config merge.conflictstyle diff3
+git config mergetool.prompt false
+```
