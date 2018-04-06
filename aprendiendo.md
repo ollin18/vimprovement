@@ -56,7 +56,46 @@ Además es importante mantenernos en el home row para ser más eficientes
 Entonces todos los movimientos los vamos a realizar con la mano derecha.
 
 Pero tengo mouse y trackpad... ¿Por qué no mejor lo uso?
-<!-- ![](imagenes/lalalala.gif) -->
 
+![](imagenes/lalalala.gif)
 
-![](http://www.reactiongifs.com/r/lalalala.gif)
+## Más movimientos súper útiles
+
+* w (word) - Se mueve al inicio de la siguiente palabra
+* W (Word) - Se mueve al inicio de la siguiente "Palabra" (primer caracter después de un espacio)
+* b (back) - Se mueve al inicio de la palabra anterior (o en la que estamos si no es el primer caracter)
+* B (Back) - Se mueve al inicio de la primera "Palabra" antes de un espacio vacio
+* e (end)  - Se mueve al final de la siguiente palabra (o en la que estamos si no es el último caracter)
+* E (End)  - Se mueve al final de la siguiente "Palabra"
+
+Usar la lista anterior para probar el modo VISUAL BLOCK.
+
+## Movimientos un poco más avanzados pero igual de útiles
+
+* f<algo> (forward) - Busca la primera aparición de <algo> y pone el cursor sobre dicho caracter
+* F<algo> (backward) - Busca la aparición hacia atrás
+* t<algo> ('til) - Igual que find pero pone el curson un espacio antes del caracter
+* T<algo> ('til backward) - Igual que F pero pone el cursor después de la aparición
+* ( - Recorre oraciones hacia atrás (Terminaciones con puntos)
+* ) - Recorre oraciones hacia adelante
+* { - Recorre párrafos hacia atrás
+* } - Recorre párrafos hacia adelante
+* gg - Va hasta el inicio del documento
+* G - Va hasta el final del documento
+
+## Búsquedas
+
+* / - Búsqueda hacia adelante
+* ? - Búsqueda hacia atrás
+* * - Búsqueda de la palabra sobre el cursor hacia adelante
+* # - Búsqueda de la palabra sobre el cursor hacia atrás
+* n - Siguiente resultado de una búsqueda
+* N - Siguiente resultado de una búsqueda, hacia atrás
+
+## Copiar y pegar
+
+* y (yank) - Copiar, necesitamos decirle qué copiar (0,$,w,b,...)
+* p (paste) - Pegar después del cursor
+* P - Pegar antes del cursor
+
+##
