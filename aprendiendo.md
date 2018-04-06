@@ -283,4 +283,5 @@ Todo vamos a hacerlo dentro de la ventana del archivo de conflictos. Nos paramos
 Saltar entre diffs
 * ]c - Salta a siguiente diff
 * [c - Salta al diff anterior
+
 Cerramos y guardamos
