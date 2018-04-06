@@ -37,7 +37,6 @@ let &packpath = &runtimepath
 source ~/.vimrc" > ~/.config/nvim/init.vim
 ```
 
-
 ## Abriendo Vim
 Sólo necesitamos teclear ```vim``` en nuestra terminal o ```vim <archivo>```
 Si ya estamos adentro de _vim_ y queremos editar un archivo, en COMMAND mode:
@@ -195,6 +194,15 @@ Manejadores de paquetes hay muchos pero dein es el más nuevo y con mayor desarr
 ## Instalando dein
 ```
 curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+sh ./installer.sh ~/.config/nvim/bundles
+```
+
+Abrimos vim y ejecutamos
+```
+:call dein#install()
+```
+Después mi recomendación es copiar mi [vimrc](https://github.com/ollin18/dotfiles) pues ya
+está bien organizado y podemos cambiar o construir a partir de ahí.
 
 
 ## maps
