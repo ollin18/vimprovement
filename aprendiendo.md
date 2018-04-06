@@ -15,6 +15,29 @@ Tenemos 4 modos principales con los cuales interactuamos con nuestros archivos.
 * VISUAL mode - Seleccionar
 * COMMAND mode - Ejecutar comandos
 
+# Instalación (de neovim)
+
+## Para Mac
+```
+brew install neovim
+```
+## Para Ubuntu
+```
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt-get update
+sudo apt-get install neovim
+```
+### de Vim a Neovim
+Hay que crear el archivo ```init.vim``` de esta manera
+```
+mkdir -p ~/.config/nvim
+echo "set runtimepath^=~/.vim runtimepath+=~/.vim/after
+let &packpath = &runtimepath
+source ~/.vimrc" > ~/.config/nvim/init.vim
+```
+
+
 ## Abriendo Vim
 Sólo necesitamos teclear ```vim``` en nuestra terminal o ```vim <archivo>```
 Si ya estamos adentro de _vim_ y queremos editar un archivo, en COMMAND mode:
@@ -169,6 +192,10 @@ Hay que pensarlos muy bien porque es fácil que fallen
 
 ## Dein y vimrc
 Manejadores de paquetes hay muchos pero dein es el más nuevo y con mayor desarrollo.
+## Instalando dein
+```
+curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+
 
 ## maps
 * :nmap - Maps en NORMAL
