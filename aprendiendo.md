@@ -141,5 +141,54 @@ Hay dos maneras de usarlo.
 * En VISUAL mode [número]< o [número]>  lo hace las veces que lo requerimos en [número]
 
 # Manejar varios archivos a la vez
-Tenemos varias opciones. Depende de lo que estemos haciendo o la forma en la que nos guste trabajar que usaremos una u otra
+Tenemos varias opciones. Depende de lo que estemos haciendo o la forma en la que nos guste trabajar que usaremos una u otra.
+* Splits (divide la pantalla)
+* Buffers (archivos en una sola dimension
+* Tabs (medio sucio y no se usa mucho)
+## Splits
+Divide tu pantalla en ventanas
+* sp - Divide horizontalmente
+* vsp - Divide verticalmente
+Para movernos entre ventanas usamos
+<CTRL>w + <movimiento> (h,j,k,l)
+Por lo que si queremos ir a la ventana de la izquierda haríamos <CTRL>w + h
 
+## Buffers
+Si abrimos un archivo con ```:edit``` o nerdtree o casi de la manera que sea, se abrirá un nuevo buffer, que es un ordenamiento de nuestros archivos. Sólo uno es visible.
+* :ls - Muestra la lista de buffers abiertos
+* :bn - Va al siguiente buffer
+* :bp - Va al buffer anterior (acepta argumento numérico)
+* :b <nombre> - Abre un buffer por nombre
+* :b <número> - Abre un buffer por número
+
+## Macros
+Repetir tareas monótonas y aburridas.
+Iniciamos a grabar con ```q + <caracter>```
+El macro se quedará guardado en dicho caracter y lo invocaremos con ```@q <caracter>```
+Hay que pensarlos muy bien porque es fácil que fallen
+
+## Dein y vimrc
+Veamos qué podemos
+
+## maps
+* :nmap - Maps en NORMAL
+* :imap - INSERT
+* :vmap - VISUAL
+* :cmap - COMAND LINE
+* :omap - Cuando necesita un operador
+
+De la ayuda de Vim
+n  Normal mode map. Defined using ':nmap' or ':nnoremap'.
+i  Insert mode map. Defined using ':imap' or ':inoremap'.
+v  Visual and select mode map. Defined using ':vmap' or ':vnoremap'.
+x  Visual mode map. Defined using ':xmap' or ':xnoremap'.
+s  Select mode map. Defined using ':smap' or ':snoremap'.
+c  Command-line mode map. Defined using ':cmap' or ':cnoremap'.
+o  Operator pending mode map. Defined using ':omap' or ':onoremap'.
+
+<Space>  Normal, Visual and operator pending mode map. Defined using
+         ':map' or ':noremap'.
+!  Insert and command-line mode map. Defined using 'map!' or
+   'noremap!'.<Paste>
+
+# Neovim
