@@ -280,4 +280,7 @@ Todo vamos a hacerlo dentro de la ventana del archivo de conflictos. Nos paramos
 * diffg B - Mantenemos los cambios de Base
 * diffg R - Mantenemos los cambios de Remoto
 
+Saltar entre diffs
+* ]c - Salta a siguiente diff
+* [c - Salta al diff anterior
 Cerramos y guardamos
