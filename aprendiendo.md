@@ -273,6 +273,7 @@ Podemos ver que tenemos arriba:
 * Archivo Local
 * Archivo Base (antes de que ambos lo cambiaran)
 * Archivo Remoto
+
 Y abajo:
 * Archivo generado por conflictos
 
