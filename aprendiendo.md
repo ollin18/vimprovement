@@ -266,7 +266,7 @@ Ahora para hacer merge de un archivo con conflictos ejecutamos
 git mergetool archivo
 ```
 Obtendremos algo así
-[](imagenes/vimdiff.png)
+![](imagenes/vimdiff.png)
 
 Podemos ver que tenemos arriba:
 * Archivo Local
