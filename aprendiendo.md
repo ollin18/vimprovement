@@ -142,10 +142,10 @@ Los comandos de edición usualmente siguen la estructura
 # Comandos de edición
 * d (delete) - Borrar
    ** dd - Toda la línea donde nos encontramos
-   ** dj - Toda la línea donde estamos y la de arriba (análogo para dk)
+   ** dj - Toda la línea donde estamos y la de abajo (análogo para dk)
    ** d0 - De donde estamos al inicio de la línea
    ** d$ - De donde estamos al final de la línea
-   hay que notar que todo lo guardado se guarda en el register de vim.
+   hay que notar que todo lo borrado se guarda en el register de vim.
 * c (change) - Cambiar, igual que d pero automáticamente entras en modo INSERT
     cc - Lo hace para toda la línea
 La podemos ir viendo que como es común cambiar toda una línea, hay un atajo en vim para los comandos que es apretar dos veces la misma tecla, igual ```yy``` copia toda la línea
@@ -156,8 +156,8 @@ La podemos ir viendo que como es común cambiar toda una línea, hay un atajo en
 
 # Indentar
 
-| Me encanta Python.
-|        Andreu, 2018
+> Me encanta Python.
+>        Andreu, 2018
 
 Como en este equipo nos encanta Python, pues tenemos que indentar bien. Para eso usamos < y >
 Hay dos maneras de usarlo.
