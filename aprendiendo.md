@@ -261,3 +261,23 @@ git config merge.tool vimdiff
 git config merge.conflictstyle diff3
 git config mergetool.prompt false
 ```
+Ahora para hacer merge de un archivo con conflictos ejecutamos
+```
+git mergetool archivo
+```
+Obtendremos algo así
+[](imagenes/vimdiff.png)
+
+Podemos ver que tenemos arriba:
+* Archivo Local
+* Archivo Base (antes de que ambos lo cambiaran)
+* Archivo Remoto
+Y abajo:
+* Archivo generado por conflictos
+
+Todo vamos a hacerlo dentro de la ventana del archivo de conflictos. Nos paramos dentro de un conflicto y decidimos qué modificaciones son las que nos queremos quedar
+* diffg L - Mantenemos los cambios de Local
+* diffg B - Mantenemos los cambios de Base
+* diffg R - Mantenemos los cambios de Remoto
+
+Cerramos y guardamos
