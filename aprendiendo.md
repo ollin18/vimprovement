@@ -95,10 +95,10 @@ Usar la lista anterior para probar el modo VISUAL BLOCK.
 
 ## Movimientos un poco más avanzados pero igual de útiles
 
-* f<algo> (forward) - Busca la primera aparición de <algo> y pone el cursor sobre dicho caracter
-* F<algo> (backward) - Busca la aparición hacia atrás
-* t<algo> ('til) - Igual que find pero pone el curson un espacio antes del caracter
-* T<algo> ('til backward) - Igual que F pero pone el cursor después de la aparición
+* f<caracter> (find) - Busca la primera aparición de <caracter> y pone el cursor sobre dicho caracter
+* F<caracter> (find) - Busca la aparición hacia atrás
+* t<caracter> ('til) - Igual que find pero pone el curson un espacio antes del caracter
+* T<caracter> ('til backward) - Igual que F pero pone el cursor después de la aparición
 * ( - Recorre oraciones hacia atrás (Terminaciones con puntos)
 * ) - Recorre oraciones hacia adelante
 * { - Recorre párrafos hacia atrás
