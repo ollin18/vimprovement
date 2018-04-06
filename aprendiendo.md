@@ -80,8 +80,15 @@ Usar la lista anterior para probar el modo VISUAL BLOCK.
 * ) - Recorre oraciones hacia adelante
 * { - Recorre párrafos hacia atrás
 * } - Recorre párrafos hacia adelante
+* [[ - Va hacia una sección previa (dependiendo del tipo de archivo)
+* ]] - Va hacia una sección posterior
 * gg - Va hasta el inicio del documento
 * G - Va hasta el final del documento
+* <número>gg o <número>G - salta hacia la línea dada en <número>
+* % - Si estamos parados en un paréntesis-like nos lleva a su complemento
+extra: <CTRL>o nos regresa al lugar previo donde nos encontrábamos
+¿Qué pasa si ejecutamos gg=G?
+
 
 ## Búsquedas
 
@@ -98,4 +105,41 @@ Usar la lista anterior para probar el modo VISUAL BLOCK.
 * p (paste) - Pegar después del cursor
 * P - Pegar antes del cursor
 
-##
+## Argumento/Verbo/Sustantivo
+
+Los comandos de edición usualmente siguen la estructura
+[numero]<verbo><sustantivo>
+
+### Ejemplo
+3gUe - Hacer mayúsculas las siguientes 3 palabras
+3 gU e
+|  | `e final de la siguiente palabra
+|  `  cambiar a mayúsculas
+`  3
+
+# Comandos de edición
+* d (delete) - Borrar
+   ** dd - Toda la línea donde nos encontramos
+   ** dj - Toda la línea donde estamos y la de arriba (análogo para dk)
+   ** d0 - De donde estamos al inicio de la línea
+   ** d$ - De donde estamos al final de la línea
+   hay que notar que todo lo guardado se guarda en el register de vim.
+* c (change) - Cambiar, igual que d pero automáticamente entras en modo INSERT
+    cc - Lo hace para toda la línea
+La podemos ir viendo que como es común cambiar toda una línea, hay un atajo en vim para los comandos que es apretar dos veces la misma tecla, igual ```yy``` copia toda la línea
+* ~ - Cambia entre mayúsculas y minúsculas del caracter actual
+* gu<movimiento> - Cambia a minúsculas los caracteres bajo el movimiento indicado
+* gU<movimiento> - Cambia a mayúsculas los caracteres bajo el movimiento indicado
+* ci<paréntesis> (change inside) - Cambia lo que esté adentro de un paréntesis-like
+
+# Indentar
+| Me encanta Python.
+|        Andreu, 2018
+Como en este equipo nos encanta Python, pues tenemos que indentar bien. Para eso usamos < y >
+Hay dos maneras de usarlo.
+* En NORMAL mode << y >> nos desindenta o indenta respectivamente una vez
+* En VISUAL mode [número]< o [número]>  lo hace las veces que lo requerimos en [número]
+
+# Manejar varios archivos a la vez
+Tenemos varias opciones. Depende de lo que estemos haciendo o la forma en la que nos guste trabajar que usaremos una u otra
+
