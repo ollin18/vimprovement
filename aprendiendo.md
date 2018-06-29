@@ -157,6 +157,7 @@ La podemos ir viendo que como es común cambiar toda una línea, hay un atajo en
 # Indentar
 
 > Me encanta Python.
+>
 >        Andreu, 2018
 
 Como en este equipo nos encanta Python, pues tenemos que indentar bien. Para eso usamos < y >
@@ -185,11 +186,6 @@ Si abrimos un archivo con ```:edit``` o nerdtree o casi de la manera que sea, se
 * :b <nombre> - Abre un buffer por nombre
 * :b <número> - Abre un buffer por número
 
-## Macros
-Repetir tareas monótonas y aburridas.
-Iniciamos a grabar con ```q + <caracter>```
-El macro se quedará guardado en dicho caracter y lo invocaremos con ```@q <caracter>```
-Hay que pensarlos muy bien porque es fácil que fallen
 
 ## Dein y vimrc
 Manejadores de paquetes hay muchos pero dein es el más nuevo y con mayor desarrollo.
@@ -206,6 +202,11 @@ Abrimos vim y ejecutamos
 Después mi recomendación es copiar mi [vimrc](https://github.com/ollin18/dotfiles) pues ya
 está bien organizado y podemos cambiar o construir a partir de ahí.
 
+## Macros
+Repetir tareas monótonas y aburridas.
+Iniciamos a grabar con ```q + <caracter>```
+El macro se quedará guardado en dicho caracter y lo invocaremos con ```@q <caracter>```
+Hay que pensarlos muy bien porque es fácil que fallen
 
 ## maps
 * :nmap - Maps en NORMAL
