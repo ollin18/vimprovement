@@ -208,6 +208,23 @@ Iniciamos a grabar con ```q + <caracter>```
 El macro se quedará guardado en dicho caracter y lo invocaremos con ```@q <caracter>```
 Hay que pensarlos muy bien porque es fácil que fallen
 
+## Archivos CSV
+Muchas veces editamos archivos CSV y poder trabajar con ellos  de manera sencilla es vital.
+Para eso utilizaremos el paquete [csv.vim](https://github.com/chrisbra/csv.vim) el cual tiene
+muchísimas funciones súper útiles que podemos revisar en la documentación (no lo he usado mucho
+así que no pregunten :P).
+Algunas de las cosas que podemos lograr y que nos serán de utilidad:
+* Mantener visibles los headers
+    * Headers 1
+* Ordenar las columnas
+    * ArrangeColumn (Necesitamos seleccionar las columnas que queremos ordenar)
+* Resaltar columnas
+    * HiColumn # (# es el número de columna, si no lo ponemos resalta en la que estamos)
+* Buscar en la columna
+    * SearchInColumn # /foo/
+
+Para movernos entre columnas usamos H y L (nota las mayúsculas)
+
 ## maps
 * :nmap - Maps en NORMAL
 * :imap - INSERT
