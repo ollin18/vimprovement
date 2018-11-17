@@ -116,8 +116,8 @@ extra: <CTRL>o nos regresa al lugar previo donde nos encontrábamos
 
 * / - Búsqueda hacia adelante
 * ? - Búsqueda hacia atrás
-* * - Búsqueda de la palabra sobre el cursor hacia adelante
-* # - Búsqueda de la palabra sobre el cursor hacia atrás
+* \* - Búsqueda de la palabra sobre el cursor hacia adelante
+* \# - Búsqueda de la palabra sobre el cursor hacia atrás
 * n - Siguiente resultado de una búsqueda
 * N - Siguiente resultado de una búsqueda, hacia atrás
 
